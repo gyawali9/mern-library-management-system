@@ -8,5 +8,5 @@
     "strict": true, // stronger type checking
     "skipLibCheck": true // skip type checking of declaration files which is going to help us save time during compilation
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*"] // folders or directories that we want to be compiled
 }
