@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
-    "target": "ES2016",
-    "module": "CommonJS",
-    "outDir": "./dis",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "skipLibCheck": true
+    "target": "ES2016", // tell compiler what version of js we want output code to be
+    "module": "CommonJS", // allow us to use our import statement instead of required statement to import modules
+    "outDir": "./dis", // where we want to output all of our js files
+    "esModuleInterop": true, // compile ts code to js using import statement instead of required statement
+    "forceConsistentCasingInFileNames": true, // best practise
+    "strict": true, // stronger type checking
+    "skipLibCheck": true // skip type checking of declaration files which is going to help us save time during compilation
   },
   "include": ["src/**/*"]
 }
